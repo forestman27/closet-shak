@@ -140,13 +140,13 @@
         <div class="elfsight-app-{{ section.settings.elfsight_id }}" data-elfsight-app-lazy></div>
     </div>
   
-    <a href="/#shopify-section-template--22800370893075__image_banner" class="shop-more-link w-inline-block">
-      <p>Shop Store</p>
-      <img
-        src="https://cdn.shopify.com/s/files/1/0880/7035/7267/files/chevron-down.svg?v=1719444020"
-        loading="lazy"
-        alt="shop more"
-      >
+    <a href="#" class="shop-more-link w-inline-block" id="shop-more-link">
+        <p>Shop Store</p>
+        <img
+            src="https://cdn.shopify.com/s/files/1/0880/7035/7267/files/chevron-down.svg?v=1719444020"
+            loading="lazy"
+            alt="shop more"
+        >
     </a>
   </div>
   
@@ -159,6 +159,20 @@
         newsletterForm.style.display = 'flex';
         getDropNotifications.style.display = 'none';
       });
+
+      const shopMoreLink = document.getElementById('shop-more-link');
+    
+        shopMoreLink.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            
+            const currentSection = shopMoreLink.closest('.shopify-section');
+            if (currentSection) {
+                const nextSection = currentSection.nextElementSibling;
+                if (nextSection) {
+                nextSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
     });
   </script>
   
