@@ -72,10 +72,13 @@
           event.preventDefault(); // Prevent the default link behavior
           
           const currentSection = shopMoreLink.closest('.shopify-section');
+          console.log('currentSection', currentSection)
+
           if (currentSection) {
               const nextSection = currentSection.nextElementSibling;
+              console.log('nextSection', nextSection)
               if (nextSection) {
-              nextSection.scrollIntoView({ behavior: 'smooth' });
+                nextSection.scrollIntoView({ behavior: 'smooth' });
               }
           }
       });
