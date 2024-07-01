@@ -67,13 +67,19 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      document.getElementById('scroll-button').addEventListener('click', function(event) {
-        event.preventDefault();
-        const collectionHero = document.querySelector('.collection-hero');
-        if (collectionHero) {
-          collectionHero.scrollIntoView({ behavior: 'smooth' });
-        }
+      const shopMoreLink = document.getElementById('scroll-button');
+      shopMoreLink.addEventListener('click', function(event) {
+          event.preventDefault(); // Prevent the default link behavior
+          
+          const currentSection = shopMoreLink.closest('.shopify-section');
+          if (currentSection) {
+              const nextSection = currentSection.nextElementSibling;
+              if (nextSection) {
+              nextSection.scrollIntoView({ behavior: 'smooth' });
+              }
+          }
       });
+
       document.getElementById('view-collection').addEventListener('click', function(event) {
         event.preventDefault();
         const collectionHero = document.querySelector('.collection-hero');
