@@ -1,0 +1,99 @@
+{% comment %}
+  Section: Collection Hero
+  Description: A hero section with a title, scroll button, and background image from the collection.
+{% endcomment %}
+
+{% if collection.image and collection.image.src %}
+  <style>
+    .custom-collection-hero {
+      background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url({{ collection.image.src | img_url: 'master' | prepend: 'https:' }});
+      background-position: 0 0, 50%;
+      background-size: auto, cover;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 80vh;
+      display: flex;
+      position: relative;
+    }
+
+    .shop-more-link {
+      color: #fff;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 20px;
+      text-decoration: none;
+      display: flex;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .collection-heading {
+      color: #fff;
+    }
+
+    .div-block {
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+
+    .collection-link {
+      color: #fff;
+      background-color: rgba(0, 0, 0, .25);
+      border: 1px solid #fff;
+      padding: 5px 20px;
+      text-decoration: none;
+    }
+  </style>
+  <div class="custom-collection-hero">
+    <div class="div-block">
+      <h1 class="collection-heading">{{ collection.title }}</h1>
+      <a id="view-collection" href="" class="collection-link w-inline-block">
+        <div>View Collection</div>
+      </a>
+    </div>
+    <a id="scroll-button" href="" class="shop-more-link w-inline-block">
+      <p>Shop Store</p>
+      <img
+        src="https://cdn.shopify.com/s/files/1/0880/7035/7267/files/chevron-down.svg?v=1719444020"
+        loading="lazy"
+        alt=""
+      >
+    </a>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('scroll-button').addEventListener('click', function(event) {
+        event.preventDefault();
+        const collectionHero = document.querySelector('.collection-hero');
+        if (collectionHero) {
+          collectionHero.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+      document.getElementById('view-collection').addEventListener('click', function(event) {
+        event.preventDefault();
+        const collectionHero = document.querySelector('.collection-hero');
+        if (collectionHero) {
+          collectionHero.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Collection Hero",
+  "settings": [],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Collection Hero"
+    }
+  ]
+}
+{% endschema %}
