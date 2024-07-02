@@ -120,7 +120,7 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <a href="{{ section.settings.button_link_1 }}" class="shop-more-link w-inline-block" id="shop-more-link">
+            <a href="{{ section.settings.button_link_1 }}">
                 <h2
                 class="banner__heading inline-richtext {{ block.settings.heading_size }}"
                 {{ block.shopify_attributes }}
