@@ -9,17 +9,9 @@
 */
 {
   "sections": {
-    "custom_liquid_tWRk9F": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n    .elfsight-container {\n      background-size: cover;\n      background-position: center;\n      padding: 20px; \/* Adjust as needed *\/\n      color: #fff; \/* Adjust text color as needed *\/\n      position: relative;\n      display: inline-block;\n      width: 100%; \/* Adjust as needed *\/\n      height: 400px; \/* Adjust as needed *\/\n    }\n\n    .elfsight-container::before {\n      content: \"\";\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      background: rgba(0, 0, 0, 0.5); \/* Adjust the opacity as needed *\/\n      z-index: 1; \/* Ensure it's below the content but above the background *\/\n    }\n\n    .elfsight-app-43bde5c2-1512-476d-961a-1faa817c9273 {\n      position: relative;\n      z-index: 2; \/* Ensure it's above the overlay *\/\n    }\n\n    .image-url {\n      color: #ff0000; \/* Change to your desired color *\/\n      font-size: 16px; \/* Adjust as needed *\/\n    }\n  <\/style>\n  <script src=\"https:\/\/static.elfsight.com\/platform\/platform.js\" data-use-service-core defer><\/script>\n<div\n    id=\"ElfSight-Container\"\n    class=\"elfsight-container\"\n    style=\"background-image: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0880\/7035\/7267\/files\/justin-bieber-cataloug.webp?v=1719273437');\"\n  >\n    <div class=\"elfsight-app-43bde5c2-1512-476d-961a-1faa817c9273\" data-elfsight-app-lazy><\/div>\n  <\/div>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -27,7 +19,6 @@
     }
   },
   "order": [
-    "custom_liquid_tWRk9F",
     "main"
   ]
 }
