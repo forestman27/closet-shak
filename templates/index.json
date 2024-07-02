@@ -217,6 +217,53 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "custum_image_link_BpAzeM": {
+      "type": "custum-image-link",
+      "blocks": {
+        "heading_bzWXtY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom Image Link",
+            "heading_size": "h1"
+          }
+        },
+        "text_etewdH": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_QqqmeR": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bzWXtY",
+        "text_etewdH",
+        "buttons_QqqmeR"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -226,6 +273,7 @@
     "image_with_text_q9gFPW",
     "featured_collection_nTU7zX",
     "featured_collection_kgHYg4",
-    "slideshow_EtVUME"
+    "slideshow_EtVUME",
+    "custum_image_link_BpAzeM"
   ]
 }
