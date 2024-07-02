@@ -120,7 +120,30 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <a href="{{ section.settings.button_link_1 }}">
+            <style>
+                .white-link {
+                    color: white;
+                    text-decoration: underline;
+                    text-decoration-color: white; /* Ensures the underline is also white */
+                }
+
+                .white-link:hover {
+                    color: white; /* Maintain white color on hover */
+                    text-decoration: underline;
+                    text-decoration-color: white; /* Ensures the underline remains white on hover */
+                }
+
+                .white-link h2 {
+                    color: white; /* Ensures the h2 text is white */
+                }
+
+                /* Optional: Ensure the underline doesn't change color on hover */
+                .white-link:hover h2 {
+                    color: white; /* Maintain white color for h2 on hover */
+                }
+
+            </style>
+            <a href="{{ section.settings.button_link_1 }}" class="white-link">
                 <h2
                 class="banner__heading inline-richtext {{ block.settings.heading_size }}"
                 {{ block.shopify_attributes }}
