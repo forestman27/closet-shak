@@ -29,6 +29,12 @@
           "settings": {
           }
         },
+        "custom_liquid_tygBii": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"\/pages\/auctions\" style=\"display: block;\">Your Auctions<\/a>"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -61,21 +67,15 @@
             "date_replace_slashes_with_dashes": false,
             "currency_format": ""
           }
-        },
-        "custom_liquid_tygBii": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a href=\"\/pages\/auctions\" style=\"display: block;\">View auctions<\/a>"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "description",
+        "custom_liquid_tygBii",
         "share",
-        "auction_pro_product_template_auction_Rgfrn3",
-        "custom_liquid_tygBii"
+        "auction_pro_product_template_auction_Rgfrn3"
       ],
       "settings": {
         "enable_sticky_info": true,
