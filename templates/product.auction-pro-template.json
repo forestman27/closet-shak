@@ -32,7 +32,7 @@
         "custom_liquid_tygBii": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"\/pages\/auctions\" style=\"display: block;\">Your Auctions<\/a>"
+            "custom_liquid": "<a href=\"\/pages\/your-auctions\" style=\"display: block;\">Your Auctions<\/a>"
           }
         },
         "share": {
