@@ -107,18 +107,10 @@
             "heading": "Shop All",
             "heading_size": "h1"
           }
-        },
-        "text_UJRp4g": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
-        "heading_bzWXtY",
-        "text_UJRp4g"
+        "heading_bzWXtY"
       ],
       "settings": {
         "button_link": "shopify:\/\/pages\/next-drop",
