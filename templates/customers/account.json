@@ -12,15 +12,38 @@
     "main": {
       "type": "main-account",
       "custom_css": [
-        "#codeblock-account-section {display:none;}"
+        "#codeblock-account-section {display: none;}"
       ],
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "171999062272c01519": {
+      "type": "apps",
+      "blocks": {
+        "auction_pro_customer_auctions_DzKhmH": {
+          "type": "shopify:\/\/apps\/auction-pro\/blocks\/customer-auctions\/f9a60837-ee5e-4613-bf53-00e7b2589c1b",
+          "settings": {
+            "include_title": true,
+            "menu_active_link_colour": "#06f",
+            "menu_inactive_link_colour": "#5c9dff",
+            "view_auction_button": "#0066ff",
+            "view_auction_button_hover": "#0052cc",
+            "currency_format": ""
+          }
+        }
+      },
+      "block_order": [
+        "auction_pro_customer_auctions_DzKhmH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "171999062272c01519"
   ]
 }
