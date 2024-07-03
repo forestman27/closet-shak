@@ -27,44 +27,10 @@
       {% comment %} <h2>{{ 'customer.account.details' | t }}</h2> {% endcomment %}
 
       {% comment %} {{ customer.default_address | format_address }} {% endcomment %}
-      {{ customer.default_address.address1  }}
-      {{ customer.default_address.city }}
-      {{ customer.default_address.zip }}
+      {{ customer.default_address.address1  }},
+      {{ customer.default_address.city }},
+      {{ customer.default_address.zip }},
       {{ customer.default_address.country }}
-      <ul>
-        <li><strong>ID</strong>: {{ customer.id }}</li>
-        <li><strong>Email</strong>: {{ customer.email }}</li>
-        <li><strong>First Name</strong>: {{ customer.first_name }}</li>
-        <li><strong>Last Name</strong>: {{ customer.last_name }}</li>
-        <li><strong>Phone</strong>: {{ customer.phone }}</li>
-        <li><strong>Note</strong>: {{ customer.note }}</li>
-        <li><strong>Orders Count</strong>: {{ customer.orders_count }}</li>
-        <li><strong>Total Spent</strong>: {{ customer.total_spent }}</li>
-        <li><strong>State</strong>: {{ customer.state }}</li>
-        <li><strong>Tags</strong>: {{ customer.tags }}</li>
-        <li><strong>Last Order ID</strong>: {{ customer.last_order_id }}</li>
-        <li><strong>Last Order Name</strong>: {{ customer.last_order_name }}</li>
-        <li><strong>Accepts Marketing</strong>: {{ customer.accepts_marketing }}</li>
-        <li><strong>Tax Exempt</strong>: {{ customer.tax_exempt }}</li>
-        <li><strong>Created At</strong>: {{ customer.created_at }}</li>
-        <li><strong>Updated At</strong>: {{ customer.updated_at }}</li>
-      </ul>
-      <ul>
-        <li><strong>Address1</strong>: {{ customer.default_address.address1 }}</li>
-        <li><strong>Address2</strong>: {{ customer.default_address.address2 }}</li>
-        <li><strong>City</strong>: {{ customer.default_address.city }}</li>
-        <li><strong>Company</strong>: {{ customer.default_address.company }}</li>
-        <li><strong>Country</strong>: {{ customer.default_address.country }}</li>
-        <li><strong>First Name</strong>: {{ customer.default_address.first_name }}</li>
-        <li><strong>Last Name</strong>: {{ customer.default_address.last_name }}</li>
-        <li><strong>Phone</strong>: {{ customer.default_address.phone }}</li>
-        <li><strong>Province</strong>: {{ customer.default_address.province }}</li>
-        <li><strong>Zip</strong>: {{ customer.default_address.zip }}</li>
-        <li><strong>Province Code</strong>: {{ customer.default_address.province_code }}</li>
-        <li><strong>Country Code</strong>: {{ customer.default_address.country_code }}</li>
-        <li><strong>Default</strong>: {{ customer.default_address.default }}</li>
-      </ul>
-      {{ customer  }}
       <a href="{{ routes.account_addresses_url }}" style="display:none;">
         Edit Address
         {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
