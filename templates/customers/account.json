@@ -19,26 +19,6 @@
         "padding_bottom": 36
       }
     },
-    "17200371504564e654": {
-      "type": "apps",
-      "blocks": {
-        "helium_customer_fields_app_block_xiaAM9": {
-          "type": "shopify:\/\/apps\/helium-customer-fields\/blocks\/app-block\/bab58598-3e6a-4377-aaaa-97189b15f131",
-          "settings": {
-            "form_id": "6Rtbl7",
-            "width": 600,
-            "vertical_spacing": 60,
-            "horizontal_spacing": 0
-          }
-        }
-      },
-      "block_order": [
-        "helium_customer_fields_app_block_xiaAM9"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "171999062272c01519": {
       "type": "apps",
       "blocks": {
@@ -64,7 +44,6 @@
   },
   "order": [
     "main",
-    "17200371504564e654",
     "171999062272c01519"
   ]
 }
