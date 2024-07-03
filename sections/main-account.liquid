@@ -89,7 +89,6 @@
         {%- else -%}
           <p>{{ 'customer.orders.none' | t }}</p>
         {%- endif -%}
-        <h1>hello1</h1>
 
         {%- if paginate.pages > 1 -%}
           {%- if paginate.parts.size > 0 -%}
@@ -138,7 +137,6 @@
         {%- endif -%}
       {% endpaginate %}
     </div>
-    <h1>hello</h1>
 
     <div>
       <h2>{{ 'customer.account.details' | t }}</h2>
@@ -148,16 +146,9 @@
       <a href="{{ routes.account_addresses_url }}">
         {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
       </a>
-      <h1>hello2</h1>
-
     </div>
-    <h1>hello3</h1>
-
   </div>
-  <h1>hello4</h1>
-
 </div>
-<h1>hello5</h1>
 
 {% schema %}
 {
