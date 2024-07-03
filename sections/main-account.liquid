@@ -27,10 +27,16 @@
       {% comment %} <h2>{{ 'customer.account.details' | t }}</h2> {% endcomment %}
 
       {% comment %} {{ customer.default_address | format_address }} {% endcomment %}
-      {{ customer.default_address.address1  }},
-      {{ customer.default_address.city }},
-      {{ customer.default_address.zip }},
-      {{ customer.default_address.country }}
+      <p>
+        {{ customer.first_name }} {{ customer.last_name }}
+      </p>
+      <p>
+        {{ customer.default_address.address1  }},
+        {{ customer.default_address.city }},
+        {{ customer.default_address.zip }},
+        {{ customer.default_address.country }}
+      </p>
+      
       <a href="{{ routes.account_addresses_url }}" style="display:none;">
         Edit Addresss
         {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
