@@ -26,7 +26,11 @@
     <div>
       {% comment %} <h2>{{ 'customer.account.details' | t }}</h2> {% endcomment %}
 
-      {{ customer.default_address | format_address }}
+      {% comment %} {{ customer.default_address | format_address }} {% endcomment %}
+      {{ customer.default_address.address1  }}
+      {{ customer.default_address.city }}
+      {{ customer.default_address.zip }}
+      {{ customer.default_address.country }}
       <ul>
         <li><strong>ID</strong>: {{ customer.id }}</li>
         <li><strong>Email</strong>: {{ customer.email }}</li>
