@@ -23,6 +23,15 @@
       </svg>
       {{ 'customer.log_out' | t }}
     </a>
+    <div>
+      <h2>{{ 'customer.account.details' | t }}</h2>
+
+      {{ customer.default_address | format_address }}
+
+      <a href="{{ routes.account_addresses_url }}">
+        {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
+      </a>
+    </div>
   </div>
 
   <div>
@@ -138,7 +147,7 @@
       {% endpaginate %}
     </div>
 
-    <div>
+    {% comment %} <div>
       <h2>{{ 'customer.account.details' | t }}</h2>
 
       {{ customer.default_address | format_address }}
@@ -146,7 +155,7 @@
       <a href="{{ routes.account_addresses_url }}">
         {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
       </a>
-    </div>
+    </div> {% endcomment %}
   </div>
 </div>
 
