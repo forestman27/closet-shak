@@ -28,8 +28,8 @@
             "include_title": true,
             "menu_active_link_colour": "#ff80a1",
             "menu_inactive_link_colour": "#ffbfcf",
-            "view_auction_button": "#ffacc1",
-            "view_auction_button_hover": "#ff80a1",
+            "view_auction_button": "#ff80a1",
+            "view_auction_button_hover": "#ff5b85",
             "currency_format": ""
           }
         }
