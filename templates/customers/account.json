@@ -26,10 +26,10 @@
           "type": "shopify:\/\/apps\/auction-pro\/blocks\/customer-auctions\/f9a60837-ee5e-4613-bf53-00e7b2589c1b",
           "settings": {
             "include_title": true,
-            "menu_active_link_colour": "#06f",
-            "menu_inactive_link_colour": "#5c9dff",
-            "view_auction_button": "#0066ff",
-            "view_auction_button_hover": "#0052cc",
+            "menu_active_link_colour": "#ff80a1",
+            "menu_inactive_link_colour": "#ffbfcf",
+            "view_auction_button": "#ffbfcf",
+            "view_auction_button_hover": "#ff80a1",
             "currency_format": ""
           }
         }
