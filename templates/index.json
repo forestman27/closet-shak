@@ -101,6 +101,49 @@
         "padding_bottom": 36
       }
     },
+    "collection_list_LdRRzk": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_3ffUG9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ariana-grande",
+            "elfsight_id": ""
+          }
+        },
+        "featured_collection_FhRMhK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "justin-bieber",
+            "elfsight_id": ""
+          }
+        },
+        "featured_collection_h8acDb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "josephina-smith",
+            "elfsight_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_3ffUG9",
+        "featured_collection_FhRMhK",
+        "featured_collection_h8acDb"
+      ],
+      "settings": {
+        "title": "Live Drops",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custum_image_link_BpAzeM": {
       "type": "custum-image-link",
       "blocks": {
@@ -256,6 +299,7 @@
     "home_next_drop_PxjbBJ",
     "image_banner",
     "collection_list_AeEnHy",
+    "collection_list_LdRRzk",
     "custum_image_link_BpAzeM",
     "image_with_text_q9gFPW",
     "featured_collection_nTU7zX",
