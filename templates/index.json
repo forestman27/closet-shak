@@ -64,19 +64,22 @@
         "featured_collection_3J8wHk": {
           "type": "featured_collection",
           "settings": {
-            "collection": "justin-bieber"
+            "collection": "justin-bieber",
+            "elfsight_id": ""
           }
         },
         "featured_collection_77MceM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "josephina-smith"
+            "collection": "gunthers-drop",
+            "elfsight_id": ""
           }
         },
         "featured_collection_6YHRJg": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ariana-grande"
+            "collection": "ariana-grande",
+            "elfsight_id": ""
           }
         }
       },
