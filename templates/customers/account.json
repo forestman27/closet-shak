@@ -23,6 +23,11 @@
     "171999062272c01519": {
       "type": "apps",
       "blocks": {
+        "yagi_draft_order_lister_app_block_EPia3g": {
+          "type": "shopify:\/\/apps\/yagi-draft-order-lister\/blocks\/app-block\/96d0c13e-89d2-4d92-9ca1-0a948f254211",
+          "settings": {
+          }
+        },
         "auction_pro_customer_auctions_DzKhmH": {
           "type": "shopify:\/\/apps\/auction-pro\/blocks\/customer-auctions\/f9a60837-ee5e-4613-bf53-00e7b2589c1b",
           "settings": {
@@ -36,6 +41,7 @@
         }
       },
       "block_order": [
+        "yagi_draft_order_lister_app_block_EPia3g",
         "auction_pro_customer_auctions_DzKhmH"
       ],
       "settings": {
