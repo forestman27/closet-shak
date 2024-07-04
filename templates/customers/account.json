@@ -12,7 +12,8 @@
     "main": {
       "type": "main-account",
       "custom_css": [
-
+        "#codeblock-account-section {display: none;}",
+        ".cf-edit-account-link-spacer {display: none;}"
       ],
       "settings": {
         "padding_top": 36,
