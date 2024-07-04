@@ -32,6 +32,10 @@
       "block_order": [
         "yagi_draft_order_lister_app_block_7eDN7A"
       ],
+      "custom_css": [
+        "#codeblock-account-section {display: none;}",
+        ".cf-edit-account-link-spacer {display: none;}"
+      ],
       "settings": {
         "include_margins": true
       }
