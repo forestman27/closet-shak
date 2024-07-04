@@ -48,7 +48,7 @@
     >
       {%- if card_collection.featured_image -%}
         <div class="card__media" style="display: flex; justify-content: center; align-items: center;">
-          <p>{{ elfsight_id }} </p>
+          {% comment %} <p>{{ elfsight_id }} </p> {% endcomment %}
           {% if elfsight_id !='' %}
             <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
             <div class="elfsight-app-{{ elfsight_id }}" data-elfsight-app-lazy></div>
