@@ -34,7 +34,8 @@
       ],
       "custom_css": [
         "#codeblock-account-section {display: none;}",
-        ".cf-edit-account-link-spacer {display: none;}"
+        ".cf-edit-account-link-spacer {display: none;}",
+        "#listable-container {width:100%;}"
       ],
       "settings": {
         "include_margins": true
