@@ -47,6 +47,47 @@
       padding: 5px 20px;
       text-decoration: none;
     }
+    .next-newsletter-form {
+    display: none;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    /* background-color: rgba(0, 0, 0, 0.6); /* Optional: Background with transparency */ */
+  }
+
+  .get-drop-notifications {
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .field__input {
+
+  }
+  .next-field__input {
+    background-color: rgba(0, 0, 0, 0) !important; /* Transparent background for input */
+    color:white !important;
+    border: 2px solid white !important; /* White border for input */
+    padding: 10px; /* Optional: padding for input */
+  }
+
+  .next-field-label {
+    color: #fff !important;
+  }
+
+  .newsletter-form__button {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  .next-newsletter-form {
+    --color-foreground: rgb(0,0,0,0); /* Set to white */
+  }
   </style>
   <div class="custom-collection-hero">
     {%- if collection.products.size != 0 -%}
