@@ -52,7 +52,7 @@
     <div class="div-block">
       <h1 class="collection-heading">{{ collection.title }}</h1>
       <a id="view-collection" href="#" class="collection-link w-inline-block">
-        <div>View Collection</div>
+        <div>View Collection {{ custom.elfsight_id }}</div>
       </a>
     </div>
     <a id="scroll-button" href="#" class="shop-more-link w-inline-block">
@@ -97,7 +97,13 @@
 {% schema %}
 {
   "name": "Collection Hero",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "elfsight_id",
+      "label": "ElfSight ID"
+    }
+  ],
   "blocks": [],
   "presets": [
     {
