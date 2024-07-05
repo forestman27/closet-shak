@@ -49,7 +49,7 @@
     }
   </style>
   <div class="custom-collection-hero">
-    {%- if collection.products.size != 0 -%}
+    {%- if collection.products.size == 0 -%}
       <div class="div-block">
         <h1 class="collection-heading">{{ collection.title }}</h1>
         <a id="view-collection" href="#" class="collection-link w-inline-block">
