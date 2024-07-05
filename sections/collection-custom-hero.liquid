@@ -48,7 +48,7 @@
       text-decoration: none;
     }
   </style>
-  <div class="custom-collection-hero">
+  <div class="custom-collection-hero" style="background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('{{ section.settings.background_image | img_url: 'master' | prepend: 'https:' }}');">
     <div class="div-block">
       <h1 class="collection-heading">{{ collection.title }}</h1>
       <a id="view-collection" href="#" class="collection-link w-inline-block">
