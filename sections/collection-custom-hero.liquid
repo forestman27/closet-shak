@@ -143,6 +143,17 @@
           alt="shop more"
         >
       </a>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var getDropNotifications = document.querySelector('.get-drop-notifications');
+          var newsletterForm = document.querySelector('.next-newsletter-form');
+      
+          getDropNotifications.addEventListener('click', function() {
+            newsletterForm.style.display = 'flex';
+            getDropNotifications.style.display = 'none';
+          });
+        });
+      </script>
     {%- endif -%}
 
   </div>
