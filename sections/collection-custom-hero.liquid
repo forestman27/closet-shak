@@ -188,7 +188,7 @@
         document.addEventListener('DOMContentLoaded', function() {
           var getDropNotifications = document.querySelector('.get-drop-notifications');
           var newsletterForm = document.querySelector('.next-newsletter-form');
-      
+          document.querySelector('.shopify-section section').style.display = 'none';
           getDropNotifications.addEventListener('click', function() {
             newsletterForm.style.display = 'flex';
             getDropNotifications.style.display = 'none';
