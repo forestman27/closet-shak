@@ -89,7 +89,7 @@
         "featured_collection_6YHRJg"
       ],
       "settings": {
-        "title": "Upcoming Drops",
+        "title": "Auctions",
         "heading_size": "h1",
         "image_ratio": "portrait",
         "columns_desktop": 3,
@@ -132,7 +132,7 @@
         "featured_collection_h8acDb"
       ],
       "settings": {
-        "title": "Live Drops",
+        "title": "Sales",
         "heading_size": "h1",
         "image_ratio": "portrait",
         "columns_desktop": 3,
@@ -228,7 +228,7 @@
 
       ],
       "settings": {
-        "title": "Designer Collection",
+        "title": "Designer",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
